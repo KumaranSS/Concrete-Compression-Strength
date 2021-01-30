@@ -13,3 +13,11 @@ Compressive strength of concrete is the Strength of hardened concrete measured b
 -->Flyash
 -->Water 
 -->Superplasticizer
+
+## MACHINE LEARNING ALGORITHMS
+LINEAR REGRESSION
+LASSO REGRESSION
+RIDGE REGRESSION
+DECISION TREE
+RANDOM FOREST
+NEURAL NETWORKS
