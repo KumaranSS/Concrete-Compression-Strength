@@ -24,3 +24,5 @@ NEURAL NETWORKS
 
 ## IMPLEMENTATION OF LINEAR REGRESSION IN FLASK
 ![](concrete1.png)
+--Run the app.py file and in browser go to local host
+![](concrete2.png)
