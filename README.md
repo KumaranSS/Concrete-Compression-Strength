@@ -26,8 +26,8 @@ NEURAL NETWORKS
 ![](concrete1.png)
 --Run the app.py file and in browser go to local host
 ![](concrete2.png)
---This page is used to get the inputs from the user.
---Then linear regression algorithm is used to predict the compressive strength of the concrete.
+This page is used to get the inputs from the user.
+Then linear regression algorithm is used to predict the compressive strength of the concrete.
 
 ## CONCLUSION
  We infer that , the neural network model is the best model to predict the compressive strength of concrete with least error and more accuracy.
