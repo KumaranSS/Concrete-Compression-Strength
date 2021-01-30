@@ -30,6 +30,13 @@ NEURAL NETWORKS
 --Then linear regression algorithm is used to predict the compressive strength of the concrete.
 
 ## CONCLUSION
--- We infer that , the neural network model is the best model to predict the compressive strength of concrete with least error and more accuracy.
--- The other ML models can also be used for small constructions depending on the conditions.
--- We have to choose the neural network model for predicting the strength because the strength of the concrete is mandatory for a building to be strong. 
+ We infer that , the neural network model is the best model to predict the compressive strength of concrete with least error and more accuracy.
+ The other ML models can also be used for small constructions depending on the conditions.
+ We have to choose the neural network model for predicting the strength because the strength of the concrete is mandatory for a building to be strong. 
+
+##  REFERENCES
+Seung-Chang Lee, "Prediction of concrete strength using artificial neural networks", Engineering Structures, vol. 25, pp. 849-857, 2003.
+<br/>
+A. Katz, "Properties of concrete made with recycled aggregate from partially hydrated old concrete", Cement and Concrete Research, vol. 33, pp. 703-711, 2003.
+<br/>
+L. Bal and F. Buyle-Bodin, "Artificial neural network for predicting creep of concrete", Neural Comput. Appl., vol. 25, no. 6, pp. 1359-1367, 2014.
