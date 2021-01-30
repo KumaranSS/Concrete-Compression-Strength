@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!--Bootstrap CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <title>Concrete Compression Strength</title>
+    </head>
+    <body>
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header ">
+                    <div class="col-12 col-sm-6">
+                        <h1>Concrete Compression Strength</h1>
+                        <p>Linear regression model is used to Compression Strength based on the input features below</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="col-sm">
+                <div class="card">
+                    
+                        <div class="row-content card-body">
+                            <form action="/predict" method="post">
+                                <dl class="row bg-info">
+                                    <dt class="col-6" >Cement</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="Cement" name="Cement	"></dd>
+                                    <dt class="col-6" >BlastFurnaceSlag</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="BlastFurnaceSlag" name="BlastFurnaceSlag"></dd>
+                                    <dt class="col-6" >FlyAsh</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="FlyAsh" name="FlyAsh"></dd>
+                                    <dt class="col-6" >Water</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="Water" name="Water"></dd>
+                                    <dt class="col-6" >Superplasticizer</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="Superplasticizer" name="Superplasticizer"></dd>
+                                    <dt class="col-6" >CoarseAggregate</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="CoarseAggregate" name="CoarseAggregate"></dd>
+                                    <dt class="col-6" >FineAggregate</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="FineAggregate" name="FineAggregate"></dd>
+                                    <dt class="col-6">Age</dt>
+                                    <dd class="col-6"> <input type="text" placeholder="Age" name="Age"></dd>
+                                    
+                                   
+                                    <dd class="offset-6 col-6"> <input class="btn btn-md" type="submit" value="Predict"></dd>
+                                </dl>
+                            </form> 
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+       
+        
+    </body>
+    <div class="footer">
+         <div class= "offset-5">
+               <p>{{data}}</p>
+         </div>
+    </div>
+</html>
